@@ -1,0 +1,14 @@
+[package]
+org="ballerinax"
+name="postgresql.driver"
+version="1.0.0"
+authors=["Ballerina"]
+keywords=["PostgreSQL"]
+repository="https://github.com/ballerina-platform/module-ballerinax-postgresql.driver"
+license=["Apache-2.0"]
+distribution = "slbeta6"
+
+[[platform.java11.dependency]]
+groupId = "org.postgresql"
+artifactId = "postgresql"
+version = "42.3.1"

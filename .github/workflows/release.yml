@@ -1,0 +1,25 @@
+name: Deployment
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Ballerina Build
+        uses: ballerina-platform/ballerina-action/@slbeta6
+        with:
+          args:
+            build
+      - name: Ballerina Push
+        uses: ballerina-platform/ballerina-action/@slbeta6
+        with:
+          args:
+            push
+        env:
+          BALLERINA_CENTRAL_ACCESS_TOKEN: ${{ secrets.BALLERINA_CENTRAL_ACCESS_TOKEN }}
