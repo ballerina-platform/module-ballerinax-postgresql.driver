@@ -1,4 +1,4 @@
-# module-ballerinax-postgresql.driver
+# Ballerina PostgreSQL Driver Library
 
 The PostgreSQL Driver library is one of the external library packages of the
 <a target="_blank" href="https://ballerina.io/">Ballerina</a> language.
