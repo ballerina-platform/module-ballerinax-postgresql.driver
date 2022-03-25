@@ -21,17 +21,11 @@ This Package bundles the latest PostgreSQL drivers so that the PostgreSQL connec
 
 ## Building the Source
 
-Execute the commands below to build from the source after installing Ballerina Swan Lake Beta 6 version.
+Execute the command below to build from the source after installing Ballerina version 2201.0.0.
+```shell script
+  bal build
+```
 
-1. To build the library:
- ```shell script
-     bal build
- ```
-
-2. To build the module without the tests:
- ```shell script
-     bal build --skip-tests
- ```
 # Contributing to Ballerina
 As an open source project, Ballerina welcomes contributions from the community.
 
