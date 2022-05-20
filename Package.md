@@ -1,12 +1,14 @@
 ## Package overview
+
 This Package bundles the latest PostgreSQL drivers so that the PostgreSQL connector can be used in ballerina projects easily.
 
 ## Compatibility
 
 | | Version |
 |:---|:---:|
-|Ballerina Language | **Swan Lake Beta 6** |
-|PostgreSQL Driver | **42.3.1** |
+|Ballerina Language | **2201.0.0** |
+|PostgreSQL Driver | **42.3.3** |
+|PostgreSQL DB Server| **8.2 or above** |
 
 > The above PostgreSQL drivers are released under the [BSD 2-Clause](https://jdbc.postgresql.org/about/license.html).
 
