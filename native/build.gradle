@@ -21,7 +21,7 @@ plugins {
     id 'java'
 }
 
-description = 'Ballerina - MySQL driver Java Native'
+description = 'Ballerina - PostgreSQL driver Java Native'
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
