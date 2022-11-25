@@ -1,0 +1,18 @@
+[package]
+org = "ballerinax"
+name = "postgresql.driver"
+version = "@toml.version@"
+authors = ["Ballerina"]
+keywords = ["PostgreSQL"]
+repository = "https://github.com/ballerina-platform/module-ballerinax-postgresql.driver"
+license = ["Apache-2.0"]
+distribution = "2201.0.0"
+
+[[platform.java11.dependency]]
+path = "./lib/postgresql-@postgresql.driver.version@.jar"
+
+[[platform.java11.dependency]]
+groupId = "io.ballerina.stdlib"
+artifactId = "postgresql.driver-native"
+version = "@toml.version@"
+path = "../native/build/libs/postgresql.driver-native-@project.version@.jar"
