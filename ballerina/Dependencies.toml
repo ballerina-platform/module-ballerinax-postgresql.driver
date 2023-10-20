@@ -5,12 +5,12 @@
 
 [ballerina]
 dependencies-toml-version = "2"
-distribution-version = "2201.7.0"
+distribution-version = "2201.8.0"
 
 [[package]]
 org = "ballerinax"
 name = "postgresql.driver"
-version = "1.4.0"
+version = "1.4.1"
 modules = [
 	{org = "ballerinax", packageName = "postgresql.driver", moduleName = "postgresql.driver"}
 ]
