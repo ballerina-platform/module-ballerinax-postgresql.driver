@@ -6,7 +6,7 @@ This Package bundles the latest PostgreSQL drivers so that the PostgreSQL connec
 
 | |     Version      |
 |:---|:----------------:|
-|Ballerina Language |   **2201.3.0**   |
+|Ballerina Language |   **2201.8.0**   |
 |PostgreSQL Driver |    **42.5.1**    |
 |PostgreSQL DB Server| **8.2 or above** |
 
