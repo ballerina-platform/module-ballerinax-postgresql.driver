@@ -12,7 +12,7 @@ distribution = "2201.8.0"
 graalvmCompatible = true
 
 [[platform.java17.dependency]]
-path = "./lib/postgresql-42.5.1.jar"
+path = "./lib/postgresql-42.6.0.jar"
 
 [[platform.java17.dependency]]
 groupId = "io.ballerina.stdlib"
