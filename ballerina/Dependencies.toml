@@ -10,7 +10,7 @@ distribution-version = "2201.8.0"
 [[package]]
 org = "ballerinax"
 name = "postgresql.driver"
-version = "1.5.0"
+version = "1.5.1"
 modules = [
 	{org = "ballerinax", packageName = "postgresql.driver", moduleName = "postgresql.driver"}
 ]
