@@ -9,7 +9,7 @@ This Package bundles the latest PostgreSQL drivers so that the PostgreSQL connec
 
 ### Set up the prerequisites
 
-1. Download and install Java SE Development Kit (JDK) version 17 (from one of the following locations).
+1. Download and install Java SE Development Kit (JDK) version 21 (from one of the following locations).
     * [Oracle](https://www.oracle.com/java/technologies/downloads/)
     * [OpenJDK](https://adoptium.net/)
 
