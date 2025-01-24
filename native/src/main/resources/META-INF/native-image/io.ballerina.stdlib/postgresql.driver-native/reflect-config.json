@@ -355,6 +355,12 @@
         "parameterTypes": [
           "java.lang.String"
         ]
+      },
+      {
+        "name": "setCurrentSchema",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
       }
     ]
   },
