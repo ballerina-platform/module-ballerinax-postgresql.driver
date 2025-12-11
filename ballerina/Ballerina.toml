@@ -1,9 +1,9 @@
 [package]
 org = "ballerinax"
 name = "postgresql.driver"
-version = "1.6.1"
+version = "1.6.2"
 authors = ["Ballerina"]
-keywords = ["PostgreSQL"]
+keywords = ["Vendor/PostgreSQL", "Area/Database", "Type/Driver"]
 repository = "https://github.com/ballerina-platform/module-ballerinax-postgresql.driver"
 license = ["Apache-2.0"]
 distribution = "2201.11.0"
@@ -17,5 +17,5 @@ path = "./lib/postgresql-42.6.1.jar"
 [[platform.java21.dependency]]
 groupId = "io.ballerina.stdlib"
 artifactId = "postgresql.driver-native"
-version = "1.6.1"
-path = "../native/build/libs/postgresql.driver-native-1.6.1.jar"
+version = "1.6.2"
+path = "../native/build/libs/postgresql.driver-native-1.6.2-SNAPSHOT.jar"
