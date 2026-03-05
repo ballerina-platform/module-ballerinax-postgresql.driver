@@ -5,6 +5,7 @@ version = "1.6.2"
 authors = ["Ballerina"]
 keywords = ["Vendor/PostgreSQL", "Area/Database", "Type/Driver"]
 repository = "https://github.com/ballerina-platform/module-ballerinax-postgresql.driver"
+icon = "icon.png"
 license = ["Apache-2.0"]
 distribution = "2201.11.0"
 
