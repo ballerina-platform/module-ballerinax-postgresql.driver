@@ -11,10 +11,6 @@ The PostgreSQL driver provides a reliable and high-performance connectivity to P
 - Secure communication with TLS and authentication
 - GraalVM compatible for native image builds
 
-## Package overview
-
-This Package bundles the latest PostgreSQL drivers so that the PostgreSQL connector can be used in ballerina projects easily.
-
 ## Compatibility
 
 | |     Version      |
