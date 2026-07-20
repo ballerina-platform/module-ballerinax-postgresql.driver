@@ -15,8 +15,8 @@ graalvmCompatible = true
 [[platform.java21.dependency]]
 groupId = "org.postgresql"
 artifactId = "postgresql"
-version = "42.7.7"
-path = "./lib/postgresql-42.7.7.jar"
+version = "42.7.13"
+path = "./lib/postgresql-42.7.13.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.ballerina.stdlib"
