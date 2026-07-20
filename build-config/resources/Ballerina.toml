@@ -13,6 +13,9 @@ distribution = "2201.13.0"
 graalvmCompatible = true
 
 [[platform.java21.dependency]]
+groupId = "org.postgresql"
+artifactId = "postgresql"
+version = "@postgresql.driver.version@"
 path = "./lib/postgresql-@postgresql.driver.version@.jar"
 
 [[platform.java21.dependency]]
